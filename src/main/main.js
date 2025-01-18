@@ -21,6 +21,7 @@ app.on('window-all-closed', () => {
   }
 });
 
+// adding something
 app.on('activate', () => {
   if (BrowserWindow.getAllWindows().length === 0) {
     mainWindow = new BrowserWindow({
